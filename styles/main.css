@@ -1,0 +1,64 @@
+.container {
+	width: 600px;
+	background-color: #404040;
+	color: #ffffff;
+	margin: 0 auto;
+	display: grid;
+	grid-template-rows: auto;
+	grid-template-areas:
+	"header header header"
+	"name name name"
+	"views peak total"
+	"chat avg duration"
+	"end end button"
+	
+}
+.header {
+	padding-left: 35px;
+	grid-area: header;
+	
+}
+.name {
+	background-color: #000000;
+	grid-area: name;
+}
+.views {
+	padding-left: 35px;
+	grid-area: views;
+}
+.peak {
+	padding-left: 80px;
+	grid-area: peak;
+}
+.total {
+	padding-left: 80px;
+	grid-area: total;
+}
+.chat {
+	padding-left: 35px;
+	grid-area: chat;
+}
+.avg {
+	padding-left: 80px;
+	grid-area: avg;
+}
+.duration {
+	padding-left: 80px;
+	grid-area: duration;
+}
+.end {
+	padding-left: 35px;
+	grid-area: end;
+}
+.foto {
+	height: 200px;
+}
+.title {
+	margin-left: 35px;
+}
+.button {
+	grid-area: button;
+	background-color: #0000ff;
+	width: 150px;
+	margin: 0 20px;
+}
